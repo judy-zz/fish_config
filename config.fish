@@ -5,7 +5,10 @@ alias vi="vim"
 alias ll='ls -laF'
 alias l.='ls -ld .[^.]*'
 alias lsd='ls -ld *(-/DN)'
+
+# External programs
 alias slt="subl"
+alias mou="/Applications/Mou.app/Contents/MacOS/Mou"
 
 # Git aliases
 alias gd='git diff --word-diff | slt'
