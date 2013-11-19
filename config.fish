@@ -22,6 +22,5 @@ function mkcd
 end
 
 function fish_prompt
-    ~/play/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
+    ~/.config/fish/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
 end
-
