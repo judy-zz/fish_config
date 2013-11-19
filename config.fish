@@ -21,10 +21,6 @@ function mkcd
     mkdir $argv; and cd $argv
 end
 
-function wiki
-    dig +short txt $1.wp.dg.cx
-end
-
 function fish_prompt
     ~/play/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
 end
