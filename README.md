@@ -1,7 +1,14 @@
 Fish Config
 ===========
 
-These are my configuration files for the Fish shell. They're a decent starting point for someone that uses git, rvm, autojump, and powerline for the prompt. Follow instructions for your operating system:
+These are my configuration files for the Fish shell. They're a decent starting point for someone that uses git, rvm, autojump, and powerline for the prompt.
+
+**WARNING!**
+
+This is still very much untested, and prone to bugs. I'm keeping it here for myself, and the various machines I keep running. You're unfortunately on your own if you try to use this.
+
+
+Follow instructions for your operating system:
 
 Mac Instructions:
 -----------------
