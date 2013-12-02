@@ -25,7 +25,7 @@ function mkcd
 end
 
 function myip
-	curl ipecho.net/plain; echo
+  curl ipecho.net/plain; echo
 end
 
 function fish_prompt
