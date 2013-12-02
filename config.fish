@@ -24,6 +24,10 @@ function mkcd
   mkdir $argv; and cd $argv
 end
 
+function myip
+	curl ipecho.net/plain; echo
+end
+
 function fish_prompt
   ~/.config/fish/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
 end
