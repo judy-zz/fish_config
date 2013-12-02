@@ -21,9 +21,13 @@ set -x PSQL_EDITOR vim
 set -x PATH ~/bin /usr/local/bin /usr/local/sbin $PATH
 
 function mkcd
-    mkdir $argv; and cd $argv
+  mkdir $argv; and cd $argv
 end
 
 function fish_prompt
-    ~/.config/fish/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
+  ~/.config/fish/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
+end
+
+function simpleserver
+  ruby -run -e httpd . -p 5000
 end
