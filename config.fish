@@ -1,4 +1,5 @@
 . ~/.config/fish/autojump.fish
+. ~/.config/fish/functions/rvm.fish
 
 # Common aliases
 alias vi="vim"
@@ -35,3 +36,10 @@ end
 function simpleserver
   ruby -run -e httpd . -p 5000
 end
+
+function gemdir
+  cd (rvm gemdir)/gems
+  pwd
+end
+
+eval (direnv hook fish)
