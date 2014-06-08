@@ -20,6 +20,11 @@ Ubuntu Instructions:
 --------------------
 
 * Run in a terminal: <code>sudo apt-get install -y git autojump fish</code>
+* Then, to install the powerline-shell dependency:
+    git clone https://github.com/milkbikis/powerline-shell
+    cd powerline-shell
+    cp config.py.dist config.py
+    ./install.py
 
 Windows Instructions:
 ---------------------
@@ -38,5 +43,6 @@ Run the following:
     cd ~/.config/fish
     which fish | sudo tee -a /etc/shells
     chsh -s $(which fish)
-    fish
+    ln -s ~/powerline-shell/powerline-shell.py ~/.config/fish/powerline-shell/powerline-shell.py
+		fish
     fish_update_completions
