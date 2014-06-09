@@ -23,8 +23,11 @@ Ubuntu Instructions:
 * Then, to install the powerline-shell dependency:
 <code>
     git clone https://github.com/milkbikis/powerline-shell
+
     cd powerline-shell
+
     cp config.py.dist config.py
+
     ./install.py
 </code>
 
