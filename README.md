@@ -20,7 +20,10 @@ Ubuntu Instructions:
 --------------------
 
 * Run in a terminal: <code>sudo apt-get install -y git autojump fish</code>
+* Install powerline-shell:[https://github.com/milkbikis/powerline-shell/] (https://github.com/milkbikis/powerline-shell/)
+* Install direnv: [http://github.com/zimbatm/direnv/](http://github.com/zimbatm/direnv/)
 
+    
 Windows Instructions:
 ---------------------
 
@@ -38,5 +41,6 @@ Run the following:
     cd ~/.config/fish
     which fish | sudo tee -a /etc/shells
     chsh -s $(which fish)
-    fish
+    ln -s ~/powerline-shell/powerline-shell.py ~/.config/fish/powerline-shell/powerline-shell.py
+		fish
     fish_update_completions
