@@ -14,12 +14,12 @@ Mac Instructions:
 -----------------
 
 * Install homebrew: [github.com/mxcl/homebrew](https://github.com/mxcl/homebrew/)
-* Run in a terminal: <code>brew install git autojump fish</code>
+* Run in a terminal: <code>brew install git autojump fish direnv</code>
 
 Ubuntu Instructions:
 --------------------
 
-* Run in a terminal: <code>sudo apt-get install -y git autojump fish</code>
+* Run in a terminal: <code>sudo apt-get install -y git autojump fish direnv</code>
 
 Windows Instructions:
 ---------------------
