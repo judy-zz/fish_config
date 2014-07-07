@@ -20,6 +20,7 @@ Ubuntu Instructions:
 --------------------
 
 * Run in a terminal: <code>sudo apt-get install -y git autojump fish direnv</code>
+* Direnv is pretty new, and might not exist in your list of repos yet. If it can't find direnv, run this: <code>sudo add-apt-repository deb http://ftp.de.debian.org/debian sid main</code>
 
 Windows Instructions:
 ---------------------
